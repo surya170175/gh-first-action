@@ -1,7 +1,7 @@
 name: me first test job
 on: workflow_dispatch
 jobs:
-  name: first-job
+  first-job:
   runs-on: ubuntu-latest
     steps:
       - name: greet-people
