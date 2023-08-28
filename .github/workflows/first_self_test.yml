@@ -1,0 +1,10 @@
+name: me first test job
+on: workflow_dispatch
+jobs:
+  name: first-job
+  runs-on: ubuntu-latest
+    steps:
+      - name: greet-people
+        echo "Hello Dear, How are you?"
+      - name: say good by
+        echo "I am done, Good Bye!"
